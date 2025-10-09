@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "dnd-front": {
+    "angular-template": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "dnd-front:build:production"
+              "buildTarget": "angular-template:build:production"
             },
             "development": {
-              "buildTarget": "dnd-front:build:development"
+              "buildTarget": "angular-template:build:development"
             }
           },
           "defaultConfiguration": "development"
